@@ -63,6 +63,22 @@ h2{
     height: 60px;
 }
 
+footer{
+    height: 92px;
+    border-width: 10px 0 0;
+    border-style: solid;
+    background-color: #666;
+    border-top-color: #4aaaa5;
+    clear: both;
+
+}
+
+#copyright{
+text-align: center;
+    padding-top: 20px;
+    font-family: 'Arial','Helvetica Neue',Helvetica,sans-serif;
+}
+
 @media screen and (max-width: 980px) {
 
     #site-logo{

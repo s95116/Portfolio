@@ -1,5 +1,6 @@
 #body{
     background-image: url("./images/dark_embroidery.png");
+    border-radius: 0;
 }
 
 #nav{
@@ -9,7 +10,7 @@
 	border-width: 0 0 2px 0;
 	background-color: #fff;
     font-family: 'Georgia',Times,'Times New Roman',serif;
-    border-radius: 0;
+    
 
 }
 
@@ -37,7 +38,7 @@ h2{
 }
 
 #aboutme-header, #contactme-header{
-	border-bottom-width:5px;
+	border-bottom-width:1px;
     border-color: #ddd;
     color: #4aaaa5;
 }
@@ -46,7 +47,6 @@ h2{
     height: 200px;
     width: 200px;
 }
-
 
 #github {
     width: 50px;
@@ -64,75 +64,36 @@ h2{
 }
 
 @media screen and (max-width: 980px) {
-    #nav {
-        background-color: blue;
-    }
 
     #site-logo{
         margin-left:1px;
     }
-
-    #image-col{
-        width:100%;
-    }
-
-    #profile-image{
-        align: center
-    }
-
-    #main-container{
-        background-color: yellow;
-        
-    }
-
-    
 
     #mediaicon-github{
         padding-left:20px;
 
     }
 
-    #mediaicon-github, #mediaicon-linkedin, #mediaicon-stackicon{
-    /*    padding-left:1px;*/
-        padding-right:5px;
-        width:60px;
-    }
-    
 }
 
 @media screen and (max-width: 768px) {
-    #nav {
-        background-color: green;
 
+     #site-logo{
+        width:100%;
     }
 
-    #main-container{
-        background-color: purple;
-       
-    }
     #aboutme-text{
-       margin-left: 20px;
-       vertical-align: top;
+        clear:left;
+        text-align: wrap;
     }
 
-    #profile-image{
-
+    #github, #linkedin, #stackicon{
+        margin:10px;
     }
+
 }
 
 @media screen and (max-width: 640px) {
-    #site-logo{
-        margin-left:15px;
-    }
-
-    #nav {
-        background-color:red;
-    }
-
-     #main-container{
-        background-color: orange;
-        
-    }
 
 
 }

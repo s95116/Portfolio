@@ -1,6 +1,6 @@
 #body{
     background-image: url("./images/dark_embroidery.png");
-    border-radius: 0;
+    height:auto;
 }
 
 #nav{
@@ -10,18 +10,10 @@
 	border-width: 0 0 2px 0;
 	background-color: #fff;
     font-family: 'Georgia',Times,'Times New Roman',serif;
-    
-
 }
 
 #nav-links{
-
     padding-top:10px;
-}
-
-h2{
-	margin:0;
-	padding:0;
 }
 
 #site-logo {
@@ -69,12 +61,11 @@ footer{
     border-style: solid;
     background-color: #666;
     border-top-color: #4aaaa5;
-    clear: both;
-
+    margin-top:35px;
 }
 
 #copyright{
-text-align: center;
+    text-align: center;
     padding-top: 20px;
     font-family: 'Arial','Helvetica Neue',Helvetica,sans-serif;
 }

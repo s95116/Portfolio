@@ -61,6 +61,17 @@ body{
     width: 200px;
 }
 
+#submit-button {
+    background-color: #4aaaa5;
+    color: #eee;
+    width: 94px;
+    height: 35px;
+    border: 0;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Georgia',Times,'Times New Roman',serif;
+}
+
 #dividing-line2 {
     border-width: 1px;
     border-style: solid;
@@ -72,8 +83,6 @@ body{
 #connect-text{
     text-align: center;
 }
-
-
 
 #github {
     width: 50px;

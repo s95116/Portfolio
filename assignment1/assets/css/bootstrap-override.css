@@ -49,6 +49,7 @@ body{
     font-size: 17px;
     line-height: 1.8em;
     font-family: 'Arial','Helvetica Neue',Helvetica,sans-serif;
+    background-color: #fff;
 }
 
 #image-col{
@@ -66,24 +67,31 @@ body{
     border-width: 1px;
     border-style: solid;
     width: 85%;
-    margin-right: 20px;
     color: #ddd;
     margin-top: 20px;
+}
+
+#connect-text{
+    text-align: center;
 }
 
 #github {
     width: 50px;
     height: 50px;
+    margin-left:10px;
+    margin-right: 10px;
 }
 
 #linkedin {
     width: 50px;
     height: 50px;
+    margin-right: 10px;
 }
 
 #stackicon {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
+    padding-bottom: 5px;
 }
 
 
@@ -164,5 +172,12 @@ footer{
     h2{
         text-align: center;
     }
+
+    #profile-image{
+        width:525px;
+        height:525px;
+        align-content: center;
+    }
+
 
 }

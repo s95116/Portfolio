@@ -61,8 +61,6 @@ body{
     width: 200px;
 }
 
-
-/*CSS for Contact Me Section*/
 #dividing-line2 {
     border-width: 1px;
     border-style: solid;
@@ -74,6 +72,8 @@ body{
 #connect-text{
     text-align: center;
 }
+
+
 
 #github {
     width: 50px;

@@ -1,5 +1,5 @@
-#body{
-    background-image: url("./images/dark_embroidery.png");
+body{
+    background-image: url(../images/dark_embroidery.png);
     height:auto;
 }
 
@@ -10,6 +10,7 @@
 	border-width: 0 0 2px 0;
 	background-color: #fff;
     font-family: 'Georgia',Times,'Times New Roman',serif;
+    border-radius: 0px;
 }
 
 #nav-links{
@@ -30,14 +31,44 @@
 }
 
 #aboutme-header, #contactme-header{
-	border-bottom-width:1px;
+	border-bottom-width:0;
     border-color: #ddd;
     color: #4aaaa5;
+    background-color: #fff;
+   
+}
+
+#dividing-line {
+    border-width: 1px;
+    margin-right: 15px;
+    border-style: solid;
+    color: #ddd;
+}
+
+.panel-body{
+    font-size: 17px;
+    line-height: 1.8em;
+    font-family: 'Arial','Helvetica Neue',Helvetica,sans-serif;
+}
+
+#image-col{
+    max-width: 200px;
 }
 
 #profile-image {
     height: 200px;
     width: 200px;
+}
+
+
+/*CSS for Contact Me Section*/
+#dividing-line2 {
+    border-width: 1px;
+    border-style: solid;
+    width: 85%;
+    margin-right: 20px;
+    color: #ddd;
+    margin-top: 20px;
 }
 
 #github {
@@ -55,6 +86,8 @@
     height: 60px;
 }
 
+
+
 footer{
     height: 92px;
     border-width: 10px 0 0;
@@ -70,6 +103,9 @@ footer{
     font-family: 'Arial','Helvetica Neue',Helvetica,sans-serif;
 }
 
+
+
+/*Media Query Section*/
 @media screen and (max-width: 980px) {
 
     #site-logo{
@@ -81,6 +117,15 @@ footer{
 
     }
 
+    #profile-image{
+        width:450px;
+        height:450px;
+    }
+
+    #dividing-line2 {
+        width:90%;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -89,18 +134,35 @@ footer{
         width:100%;
     }
 
+    h2{
+        text-align: center;
+    }
+
     #aboutme-text{
-        clear:left;
         text-align: wrap;
+    }
+
+    #profile-image{
+        width:275px;
+        height:275px;
+    }
+
+    #dividing-line2 {
+        width:95%;
     }
 
     #github, #linkedin, #stackicon{
         margin:10px;
     }
 
+
+
 }
 
 @media screen and (max-width: 640px) {
 
+    h2{
+        text-align: center;
+    }
 
 }
